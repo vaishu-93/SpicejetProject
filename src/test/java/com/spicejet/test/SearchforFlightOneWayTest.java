@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.spicejet.base.SpicejetBase;
 import com.spicejet.objects.BookingPage;
 
-public class SearchForFlightOnewayTest extends SpicejetBase {
+public class SearchforFlightOnewayTest extends SpicejetBase {
 
 	@BeforeTest
 	public void testDetails() {
