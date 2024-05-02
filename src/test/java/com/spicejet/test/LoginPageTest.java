@@ -21,11 +21,12 @@ public class LoginPageTest extends SpicejetBase {
 		LoginPage login = new LoginPage();
 		login.login();
 		Assert.assertEquals(login.loginText(), "Hi Vaishali");
-		takeScreenshot("TC001_LoginTest");
+		
 		if (login.loginText().contains(testAuthor)) {
 			test.pass("Login test passed");
 		} else
 			test.fail("Login test failed");
+		takeScreenshot("TC001_LoginTest");
 	}
 
 }

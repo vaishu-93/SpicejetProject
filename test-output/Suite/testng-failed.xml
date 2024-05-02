@@ -14,48 +14,26 @@
           <include name="testDetails"/>
         </methods>
       </class> <!-- com.spicejet.test.SignUpPageTest -->
-      <class name="com.spicejet.test.LoginWithInvalidDetailsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="endReport"/>
-          <include name="TC002_LoginwithInvalidDetailsTest"/>
-          <include name="detail"/>
-          <include name="teardown"/>
-          <include name="startReport"/>
-          <include name="testDetails"/>
-        </methods>
-      </class> <!-- com.spicejet.test.LoginWithInvalidDetailsTest -->
       <class name="com.spicejet.test.OnewayTripBookingTest">
         <methods>
           <include name="setUp"/>
-          <include name="endReport"/>
           <include name="TC007_onewaytripbookingTest"/>
+          <include name="endReport"/>
           <include name="detail"/>
           <include name="startReport"/>
           <include name="teardown"/>
           <include name="testDetails"/>
         </methods>
       </class> <!-- com.spicejet.test.OnewayTripBookingTest -->
-      <class name="com.spicejet.test.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="endReport"/>
-          <include name="detail"/>
-          <include name="TC001_LoginTest"/>
-          <include name="testDetails"/>
-          <include name="startReport"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.spicejet.test.LoginPageTest -->
       <class name="com.spicejet.test.RoundTripBookingTest">
         <methods>
-          <include name="testDetails"/>
           <include name="TC008_roundtripbookingTest"/>
+          <include name="testDetails"/>
           <include name="setUp"/>
           <include name="endReport"/>
           <include name="detail"/>
-          <include name="teardown"/>
           <include name="startReport"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- com.spicejet.test.RoundTripBookingTest -->
       <class name="com.spicejet.test.SignUpwithInvalidDetailsTest">

@@ -5,13 +5,13 @@
     <classes>
       <class name="com.spicejet.test.RoundTripBookingTest">
         <methods>
-          <include name="TC008_roundtripbookingTest"/>
           <include name="testDetails"/>
+          <include name="TC008_roundtripbookingTest"/>
           <include name="setUp"/>
           <include name="endReport"/>
           <include name="detail"/>
-          <include name="startReport"/>
           <include name="teardown"/>
+          <include name="startReport"/>
         </methods>
       </class> <!-- com.spicejet.test.RoundTripBookingTest -->
     </classes>

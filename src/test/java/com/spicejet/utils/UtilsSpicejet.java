@@ -67,6 +67,11 @@ public class UtilsSpicejet {
 		js.executeScript("arguments[0].scrollIntoView(true);", element);
 	}
 
+	public static void scrolltoLast() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("javascript:window.scrollBy(0,950)");
+	}
+	
 	public static void elementvisiblitywait(WebElement element) {
 		WebDriverWait wait3 = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait3.until(ExpectedConditions.visibilityOf(element));

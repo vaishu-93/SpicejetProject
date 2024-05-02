@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.spicejet.base.SpicejetBase;
 import com.spicejet.objects.BookingPage;
 
-public class RoundtripFlightSearchInvalid extends SpicejetBase {
+public class RoundtripFlightSearchInvalidTest extends SpicejetBase {
 
 	@BeforeTest
 	public void testDetails() {

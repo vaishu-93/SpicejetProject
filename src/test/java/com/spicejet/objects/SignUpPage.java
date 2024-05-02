@@ -114,6 +114,7 @@ public class SignUpPage extends SpicejetBase {
 		lastName.sendKeys("Prem");
 		phone.sendKeys("9000212233");
 		email.sendKeys("ashaprem09@gmail.com");
+		wait(submitBtn);
 		submitBtn.click();
 	}
 }

@@ -24,11 +24,12 @@ public class SignUpwithInvalidDetailsTest extends SpicejetBase {
 		SignUpPage signup = new SignUpPage();
 		signup.SignUpInvalid();
 		Assert.assertEquals(signup.errorText(), "Please fill all mandatory fields marked with an '*' to proceed");
-		takeScreenshot("TC004_SignUpwithInvalidDetails");
-		if (signup.signInText().contains("OTP Verification")) {
+		
+		if (signup.signInText().contains("Please fill all mandatory fields marked with an '*' to proceed")) {
 			test.pass("SignUp with invalid details test passed");
 		} else
 			test.fail("SignUp with invalid details test failed");
 
+		takeScreenshot("TC004_SignUpwithInvalidDetails");
 	}
 }

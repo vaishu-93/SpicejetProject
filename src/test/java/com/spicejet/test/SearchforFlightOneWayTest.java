@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.spicejet.base.SpicejetBase;
 import com.spicejet.objects.BookingPage;
 
-public class SearchforFlightOneWayTest extends SpicejetBase {
+public class SearchForFlightOnewayTest extends SpicejetBase {
 
 	@BeforeTest
 	public void testDetails() {
@@ -29,5 +29,4 @@ public class SearchforFlightOneWayTest extends SpicejetBase {
 		} else
 			test.fail("Oneway Flight search test failed");
 	}
-
 }

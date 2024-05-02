@@ -24,7 +24,7 @@ public class RoundTripBookingTest extends SpicejetBase {
 		BookingPage bookingpage = new BookingPage();
 		bookingpage.roundtripBooking();
 		PassengerDetailsPage details = new PassengerDetailsPage();
-		details.bookFlight();
+		details.passengerDetails();
 		Assert.assertEquals(details.paymenterrorText(), "Please enter a valid card");
 		takeScreenshot("TC008_roundtripbookingTest");
 		if (details.paymenterrorText().contains("Please enter a valid card")) {

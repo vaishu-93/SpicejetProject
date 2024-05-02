@@ -1,5 +1,8 @@
 package com.spicejet.base;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -14,7 +17,8 @@ public class SpicejetBase extends UtilsSpicejet {
 
 	@BeforeSuite
 	public void startReport() {
-		ExtentHtmlReporter reporter = new ExtentHtmlReporter("result.html");
+		String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+		ExtentHtmlReporter reporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/target/result-" + timeStamp + ".html");
 		reporter.setAppendExisting(false);
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
@@ -34,7 +38,7 @@ public class SpicejetBase extends UtilsSpicejet {
 
 	@AfterMethod()
 	public void teardown() {
-		driver.quit();
+	//	driver.quit();
 	}
 
 	@AfterSuite

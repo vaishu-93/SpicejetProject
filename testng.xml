@@ -3,15 +3,15 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.spicejet.test.RoundtripFlightSearchInvalid"/>
+      <class name="com.spicejet.test.RoundtripFlightSearchInvalidTest"/>
       <class name="com.spicejet.test.LoginWithInvalidDetailsTest"/>
       <class name="com.spicejet.test.SignUpwithInvalidDetailsTest"/>
       <class name="com.spicejet.base.SpicejetBase"/>
       <class name="com.spicejet.test.LoginPageTest"/>
       <class name="com.spicejet.test.SignUpPageTest"/>
+      <class name="com.spicejet.test.SearchForFlightOnewayTest"/>
       <class name="com.spicejet.test.SearchForFlightRoundTripTest"/>
       <class name="com.spicejet.test.BookingPageNavigationTabsTest"/>
-      <class name="com.spicejet.test.SearchforFlightOneWayTest"/>
       <class name="com.spicejet.test.RoundTripBookingTest"/>
       <class name="com.spicejet.test.OnewayTripBookingTest"/>
     </classes>
