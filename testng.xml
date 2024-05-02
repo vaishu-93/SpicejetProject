@@ -9,7 +9,7 @@
       <class name="com.spicejet.base.SpicejetBase"/>
       <class name="com.spicejet.test.LoginPageTest"/>
       <class name="com.spicejet.test.SignUpPageTest"/>
-      <class name="com.spicejet.test.SearchForFlightOnewayTest"/>
+      <class name="com.spicejet.test.SearchforFlightOnewayTest"/>
       <class name="com.spicejet.test.SearchForFlightRoundTripTest"/>
       <class name="com.spicejet.test.BookingPageNavigationTabsTest"/>
       <class name="com.spicejet.test.RoundTripBookingTest"/>
