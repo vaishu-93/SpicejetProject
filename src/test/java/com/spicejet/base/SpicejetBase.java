@@ -38,7 +38,7 @@ public class SpicejetBase extends UtilsSpicejet {
 
 	@AfterMethod()
 	public void teardown() {
-	//	driver.quit();
+		driver.quit();
 	}
 
 	@AfterSuite
