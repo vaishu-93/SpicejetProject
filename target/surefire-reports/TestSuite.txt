@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 192.79 s <<< FAILURE! - in TestSuite
+com.spicejet.test.SignUpwithInvalidDetailsTest.TC004_SignUpwithInvalidDetails  Time elapsed: 7.566 s  <<< FAILURE!
+java.lang.AssertionError: expected [Please fill all mandatory fields marked with an '*' to proceed] but found []
+	at com.spicejet.test.SignUpwithInvalidDetailsTest.TC004_SignUpwithInvalidDetails(SignUpwithInvalidDetailsTest.java:26)
+
+com.spicejet.test.SignUpPageTest.TC003_SignUpPageTest  Time elapsed: 5.06 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found in the current frame
+  (Session info: chrome=124.0.6367.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84cad3b2a3c53b90650f7eda4f222f1e, clickElement {id=f.55C126A7AABDCFFE74F2F202A332E58C.d.8FEF7DD5F7A3F33EFBB8148C051955AA.e.13}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.93, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\vaish\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50575/devtoo..., se:cdpVersion: 124.0.6367.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84cad3b2a3c53b90650f7eda4f222f1e)] -> xpath: //div[contains(text(),'Signup')]]
+Session ID: 84cad3b2a3c53b90650f7eda4f222f1e
+	at com.spicejet.test.SignUpPageTest.TC003_SignUpPageTest(SignUpPageTest.java:24)
+
+com.spicejet.test.RoundTripBookingTest.TC008_roundtripbookingTest  Time elapsed: 41.551 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='card_number']"}
+  (Session info: chrome=124.0.6367.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2033dbee3ddf7ffc1d42c51ab4301e3, findElement {value=//input[@id='card_number'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.93, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\vaish\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50873/devtoo..., se:cdpVersion: 124.0.6367.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2033dbee3ddf7ffc1d42c51ab4301e3
+	at com.spicejet.test.RoundTripBookingTest.TC008_roundtripbookingTest(RoundTripBookingTest.java:27)
+
+com.spicejet.test.OnewayTripBookingTest.TC007_onewaytripbookingTest  Time elapsed: 26.42 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-testid='undefined-month-May-2024']//div[@data-testid='undefined-calendar-day-20']"}
+  (Session info: chrome=124.0.6367.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [810ecaa90677ecebec22cf080be35bb8, findElement {value=//div[@data-testid='undefined-month-May-2024']//div[@data-testid='undefined-calendar-day-20'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.93, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\vaish\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50999/devtoo..., se:cdpVersion: 124.0.6367.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 810ecaa90677ecebec22cf080be35bb8
+	at com.spicejet.test.OnewayTripBookingTest.TC007_onewaytripbookingTest(OnewayTripBookingTest.java:25)
+

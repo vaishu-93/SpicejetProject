@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.spicejet.test.SignUpwithInvalidDetailsTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="TC004_SignUpwithInvalidDetails"/>
+          <include name="teardown"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.spicejet.test.SignUpwithInvalidDetailsTest -->
+      <class name="com.spicejet.test.SignUpPageTest">
+        <methods>
+          <include name="TC003_SignUpPageTest"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="teardown"/>
+          <include name="startReport"/>
+          <include name="testDetails"/>
+        </methods>
+      </class> <!-- com.spicejet.test.SignUpPageTest -->
+      <class name="com.spicejet.test.RoundTripBookingTest">
+        <methods>
+          <include name="TC008_roundtripbookingTest"/>
+          <include name="testDetails"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="startReport"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.spicejet.test.RoundTripBookingTest -->
+      <class name="com.spicejet.test.OnewayTripBookingTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC007_onewaytripbookingTest"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="startReport"/>
+          <include name="teardown"/>
+          <include name="testDetails"/>
+        </methods>
+      </class> <!-- com.spicejet.test.OnewayTripBookingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
